@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public abstract class Product {
+public class Product {
     private int id; //идентификатор
     protected String name; //название
     private float cost; //стоимость
